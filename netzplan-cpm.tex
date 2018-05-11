@@ -1,0 +1,206 @@
+\documentclass{beamer}
+
+\mode<presentation>
+\definecolor{hdaRot}{cmyk}{0,1,1,0.18}     % -5005
+\definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0}     % -1169
+\definecolor{hdaGruenMed}{cmyk}{0.5,0.13,1,0.06}    % -2048
+
+\setbeamercolor*{kred}{fg=hdaRot}
+\setbeamercolor*{kblue}{fg=hdaBlauMed}
+\setbeamercolor*{kgreen}{fg=hdaGruenMed}
+\setbeamercolor*{kblack}{fg=black}
+\mode<all>
+
+\newcommand{\hlblue}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kblue}}}
+
+\newcommand{\hlgreen}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kgreen}}}
+
+\newcommand{\hlblack}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kblack}}}
+
+\newcommand{\hlred}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kred}}}
+
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}%
+
+\makeatletter
+\tikzset{pics/named scope code/.style={code={\tikz@fig@mustbenamed%
+  \begin{scope}[local bounding box/.expanded=\tikz@fig@name]#1\end{scope}%
+}}}
+\makeatother
+
+
+\tikzset {
+  pics/c4way/.style n args = {4}{
+    named scope code = {
+      \draw[line width=1pt]  (0,0) circle (1cm);
+      \foreach \angle in {45, 135, 225, 315}{ \draw[line width=1pt] (\angle:0cm) -- (\angle:1cm); }
+      \foreach \angle / \label in {90/#1, 180/#2, 0/#3, 270/#4}{ \draw (\angle:0.6cm) node{\textbf{\label}}; }
+    }
+  }
+}
+
+\begin{document}
+\begin{frame}[t,shrink=65]
+\begin{tikzpicture}
+   [bend angle=45,
+   line width=1pt,
+   auto,
+   pre/.style={<-,shorten <=1pt,>=stealth',semithick},
+   post/.style={->,shorten >=1pt,>=stealth',semithick}]
+
+   \pic (N01) at (0,4) {c4way=%
+      {\hlblack<1>\visible<1->1}
+      {\hlblue<12>\visible<12->0}
+      {\hlgreen<30>\visible<30->0}
+      {\hlred<32>\visible<32->0}
+   };
+   \pic (N02) at (4,0) {c4way=%
+      {\hlblack<2>\visible<2->2}
+      {\hlblue<12>\visible<12->1}
+      {\hlgreen<13>\visible<30->2}
+      {\hlred<31>\visible<31->1}
+   };
+   \pic (N03) at (4,4) {c4way=%
+      {\hlblack<2>\visible<2->3}
+      {\hlblue<13>\visible<13->2}
+      {\hlgreen<29>\visible<29->2}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<2-> [post] (N01) to node {Studie}
+                      node[swap] {1}  (N02);
+   \draw<2-> [post] (N01) to node {RQ}
+                      node[swap] {2}  (N03);
+
+   \draw<2-> [post] (N02) to node {}
+                      node[swap] {}  (N03);
+
+   \pic (N04) at (8,4) {c4way=%
+      {\hlblack<3>\visible<3->4}
+      {\hlblue<14>\visible<14->6}
+      {\hlgreen<28>\visible<28->6}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<3-> [post] (N03) to node {SE}
+                      node[swap] {4}  (N04);
+
+   \pic (N06) at (12,0) {c4way=%
+      {\hlblack<4>\visible<4->6}
+      {\hlblue<15>\visible<15->9}
+      {\hlgreen<27>\visible<27->9}
+      {\hlred<32>\visible<32->0}
+   };
+   \pic (N08) at (12,8) {c4way=%
+      {\hlblack<5>\visible<5->8}
+      {\hlblue<16>\visible<16->9}
+      {\hlgreen<26>\visible<26->{11}}
+      {\hlred<31>\visible<31->2}
+   };
+   \draw<4-> [post] (N04) to node {SW}
+                      node[swap] {3}  (N06);
+   \draw<5-> [post] (N04) to node {HW}
+                      node[swap] {3}  (N08);
+
+   \pic (N05) at (12,4) {c4way=%
+      {\hlblack<1>\visible<6->5}
+      {\hlblue<17>\visible<17->8}
+      {\hlgreen<17>\visible<27->9}
+      {\hlred<31>\visible<31->1}
+   };
+   \draw<6-> [post] (N04) to node {FM}
+                      node[swap] {2}  (N05);
+   \draw<6-> [post] (N05) to node {}
+                      node[swap] {}  (N06);
+   \draw<6-> [post] (N05) to node {}
+                      node[swap] {}  (N08);
+
+   \pic (N07) at (16,0) {c4way=%
+      {\hlblack<1>\visible<7->7}
+      {\hlblue<18>\visible<18->{15}}
+      {\hlgreen<25>\visible<25->{15}}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<7-> [post] (N06) to node {Pgm}
+                      node[swap] {6}  (N07);
+
+   \pic (N09) at (16,8) {c4way=%
+      {\hlblack<1>\visible<8->9}
+      {\hlblue<19>\visible<19->{14}}
+      {\hlgreen<25>\visible<25->{16}}
+      {\hlred<31>\visible<31->2}
+   };
+   \draw<8-> [post] (N08) to node {Proto}
+                      node[swap] {5}  (N09);
+
+   \pic (N10) at (20,4) {c4way=%
+      {\hlblack<1>\visible<9->{10}}
+      {\hlblue<20>\visible<20->{20}}
+      {\hlgreen<24>\visible<24->{20}}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<9-> [post] (N09) to node {HW-TST}
+                      node[swap] {4}  (N10);
+   \draw<9-> [post] (N07) to node {SW-TST}
+                      node[swap] {5}  (N10);
+
+   \pic (N11) at (24,4) {c4way=%
+      {\hlblack<1>\visible<10->{11}}
+      {\hlblue<21>\visible<21->{22}}
+      {\hlgreen<23>\visible<23->{22}}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<10-> [post] (N10) to node {Int}
+                      node[swap] {2}  (N11);
+
+   \pic (N12) at (28,4) {c4way=%
+      {\hlblack<1>\visible<11->{12}}
+      {\hlblue<22>\visible<22->{25}}
+      {\hlgreen<22>\visible<22->{25}}
+      {\hlred<32>\visible<32->0}
+   };
+   \draw<11-> [post] (N11) to node {Test}
+                      node[swap] {3}  (N12);
+
+ \end{tikzpicture}
+
+\begin{center}
+{\large
+    \begin{tabular}{l|lccl}
+      \hline
+      Nr & Tätigkeit        & Vorgänger & Aufwand & Kurz \\
+      1  & Requirements     & -     & 2 & RQ \\
+      2  & Studie           & -     & 1 & Studie \\
+      3  & Systementwurf    & 1     & 4 & SE \\
+      4  &   3              & 2     & - & \\
+      5  & HW-Entwurf       & 3     & 3 & HW \\
+      6  & Funktionsmuster  & 3     & 2 & FM \\
+      7  & SW-Entwurf       & 3     & 3 & SW \\
+      8  & Programmierung   & 7     & 6 & Pgm \\
+      9  & 8                & 6     & - & \\
+      10 & SW-Test          & 8     & 5 & SW-Test \\
+      11 & Prototyp-Entwicklung & 5 & 5 & Proto \\
+      12 & 11               & 6     & - & \\
+      13 & HW-Test          & 11    & 4 & HW-Test \\
+      14 & Integration      & 10; 13 & 2 & Int \\
+      15 & System-Test      & 14    & 3 & Test \\
+      \hline
+        & \textbf{Gesamtaufwand} &   & \textbf{40} \\
+    \end{tabular}
+}
+\end{center}
+\begin{frame}
+    \only<-2>{Hallo}
+    \invisible<4->{\alert<3>{Hallo verschwindet.\\}}
+    \uncover<4->{Und jetzt erscheint das}
+\end{frame}
+
+\end{frame}
+\end{document} 
