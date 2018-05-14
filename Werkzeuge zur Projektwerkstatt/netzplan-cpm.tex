@@ -9,6 +9,10 @@
 \setbeamercolor*{kblue}{fg=hdaBlauMed}
 \setbeamercolor*{kgreen}{fg=hdaGruenMed}
 \setbeamercolor*{kblack}{fg=black}
+\setbeamercolor{normal text}{fg=gray,bg=}
+\setbeamercolor{alerted text}{fg=black,bg=}
+\setbeamercovered{transparent=25}
+\usebeamercolor{normal text}
 \mode<all>
 
 \newcommand{\hlblue}{%
@@ -197,5 +201,16 @@
 }
 \end{center}
 
+
+\begin{enumerate}
+{\huge
+    \item \alert<+> {wir fangen an bei 1}
+    \item \alert<+> {und jetzt kommt das}
+    \item \alert<+> {als letztes das}
+}
+
+\end{enumerate}
 \end{frame}
+
+
 \end{document} 
