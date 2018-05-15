@@ -9,8 +9,8 @@
 \setbeamercolor*{kblue}{fg=hdaBlauMed}
 \setbeamercolor*{kgreen}{fg=hdaGruenMed}
 \setbeamercolor*{kblack}{fg=black}
-\setbeamercolor{normal text}{fg=gray,bg=}
-\setbeamercolor{alerted text}{fg=black,bg=}
+%\setbeamercolor{normal text}{fg=gray,bg=}
+%\setbeamercolor{alerted text}{fg=black,bg=}
 \setbeamercovered{transparent=25}
 \usebeamercolor{normal text}
 \mode<all>
@@ -175,7 +175,7 @@
 
  \end{tikzpicture}
 
-\begin{center}
+
 {\large
     \begin{tabular}{l|lccl}
       \hline
@@ -199,17 +199,19 @@
         & \textbf{Gesamtaufwand} &   & \textbf{40} \\
     \end{tabular}
 }
-\end{center}
 
 
-\begin{enumerate}
+
+\begin{itemize}
 {\huge
-    \item \alert<+> {wir fangen an bei 1}
-    \item \alert<+> {und jetzt kommt das}
-    \item \alert<+> {als letztes das}
+    \item<only@+> {Wir fange mit dem ersten Knoten an. Trage die 1 ein.}
+    \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). All diese gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform)sowie Aufwand/ Dauer auf den Pfeil.}
+    \item<only@+> {Füge alle möglichen Nachfolger zu den letzten Vorgängen hinzu.}
+    \item \alert<+> {Bei einem Vorgang mit 2 oder mehr Nachfolgern, wird hier wie gewohnt Schritt 3 ausgeführt.}
 }
 
-\end{enumerate}
+\end{itemize}
+
 \end{frame}
 
 
