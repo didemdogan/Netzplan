@@ -1,5 +1,9 @@
 \documentclass{beamer}
 
+\usepackage{german}	%Block zum Setzen von Umlauten
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+
 \mode<presentation>
 \definecolor{hdaRot}{cmyk}{0,1,1,0.18}     % -5005
 \definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0}     % -1169
@@ -176,7 +180,10 @@
  \end{tikzpicture}
 
 
-{\large
+{\Large
+
+\par\vspace{2cm}\noindent       %Abstand zur Grafik 2cm
+
     \begin{tabular}{l|lccl}
       \hline
       Nr & Tätigkeit        & Vorgänger & Aufwand & Kurz \\
@@ -200,32 +207,43 @@
     \end{tabular}
 }
 
+% andere Möglichkeit zum Einblenden/Ausblenden, aber Pfeile bleiben...
+%\begin{itemize}
+%\item<1->
+%\only<1>{Dein Netzplan beginnt immer bei einem FA von 0}
+%\item<2->
+%\only<2>{Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen von unserem ersten Knoten aus. %Schreibe die Tätigkeiten (in Kurzform), sowie Aufwand/Dauer auf den Pfeil.}
+%\end{itemize}
 
 
+\par\vspace{1cm}\noindent %Abstand
 \begin{itemize}
+
 {\huge
     \item<only@+> {Dein Netzplan beginnt immer bei einem FA von 0}
-    \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). All diese Pfeile gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform)sowie Aufwand/ Dauer auf den Pfeil.}
-    \item<only@+> {Schreibe den neuen FA in die linke Spalte. Hierbei addierst du den alten FA mit der Dauert T -> FA = FA + T}
-    \item<only@+> {Füge alle Pfeile zu den möglichen Nachfolger zu. Vergesse Beschreibung und Dauer nicht.}
+    
+    \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform), sowie Aufwand/Dauer auf den Pfeil.}
+    \item<only@+> {Schreibe den neuen FA in die linke Spalte. Hierbei addierst du den alten FA mit der Dauer T;
+                   FA = FA + T}
+    \item<only@+> {Füge alle Pfeile zu den möglichen Nachfolger hinzu. Vergiss die Beschreibung und Dauer nicht.}
     \item<only@+> {Ergänze FA.}
-    \item<only@+> {Suche alle Konten die den jetzigen Konten als Vorgänger haben.}
+    \item<only@+> {Suche alle Knoten, die den jetzigen Knoten als Vorgänger haben.}
     \item<only@+> {Ergänze FA.}
     \item<only@+> {Wiederhole Schritt 4}
     \item<only@+> {Wiederhole Schritt 4}
-    \item<only@+> {Bei einem Vorgang mit 2 oder mehr Vorgängern, wähle den mit dem höhreren FA.}
+    \item<only@+> {Bei einem Vorgang mit 2 oder mehr Vorgängern, wähle den mit dem höheren FA.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt. Übernehme den FA als SA.}
     \item<only@+> {Die Differenz aus FA-SA ergibt die Pufferzeit.}
-    \item<only@+> {Die neue SA wird berechnet aus der Differenz von SA und der Dauer eines Vorgangs. Pufferzeit wie gewohnt ausrechnen.}
+    \item<only@+> {Der neue SA wird aus der Differenz von SA und der Dauer eines Vorgangs berechnet . Pufferzeit wie gewohnt ausrechnen.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Hier wird die kleinste SA genommen.}
+    \item<only@+> {Hier wird der kleinste SA genommen.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Wiederhole Schritt 4}
-    \item \alert<+> {Die Zeile macht probleme.}
+    \item \alert<+> {Die Zeile macht Probleme.}
 }
 
 \end{itemize}
