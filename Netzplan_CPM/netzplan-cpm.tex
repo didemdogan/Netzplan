@@ -176,8 +176,25 @@
    };
    \draw<13-> [post] (N11) to node {Test}
                       node[swap] {3}  (N12);
-
+             
+   %Einzeichnen des kritischen Pfades 
+    \only<23>{\draw<14->[red, ultra thick] [post] (N11) to node {}
+                      node[swap] {}  (N12);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N10) to node {}
+                      node[swap] {}  (N11);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N07) to node {}
+                      node[swap] {}  (N10);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N06) to node {}
+                      node[swap] {}  (N07);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N04) to node {}
+                      node[swap] {}  (N06);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N03) to node {}
+                      node[swap] {}  (N04);}
+    \only<23>{\draw<14->[red, ultra thick] [post] (N01) to node {}
+                      node[swap] {}  (N03);}
  \end{tikzpicture}
+
+
 
 \begin{columns}
 \column[t]{.60\textwidth}
