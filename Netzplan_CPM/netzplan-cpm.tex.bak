@@ -1,5 +1,9 @@
 \documentclass{beamer}
 
+\usepackage{german}	%Block zum Setzen von Umlauten
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+
 \mode<presentation>
 \definecolor{hdaRot}{cmyk}{0,1,1,0.18}     % -5005
 \definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0}     % -1169
@@ -9,6 +13,10 @@
 \setbeamercolor*{kblue}{fg=hdaBlauMed}
 \setbeamercolor*{kgreen}{fg=hdaGruenMed}
 \setbeamercolor*{kblack}{fg=black}
+%\setbeamercolor{normal text}{fg=gray,bg=}
+%\setbeamercolor{alerted text}{fg=black,bg=}
+\setbeamercovered{transparent=25}
+\usebeamercolor{normal text}
 \mode<all>
 
 \newcommand{\hlblue}{%
@@ -58,22 +66,22 @@
    post/.style={->,shorten >=1pt,>=stealth',semithick}]
 
    \pic (N01) at (0,4) {c4way=%
-      {\hlblack<1>\visible<1->1}
-      {\hlblue<12>\visible<12->0}
-      {\hlgreen<30>\visible<30->0}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<1>\visible<1->1}
+      {\hlblue<1>\visible<1->0}
+      {\hlgreen<23>\visible<23->0}
+      {\hlred<23->\visible<23->0}
    };
    \pic (N02) at (4,0) {c4way=%
-      {\hlblack<2>\visible<2->2}
-      {\hlblue<12>\visible<12->1}
-      {\hlgreen<13>\visible<30->2}
-      {\hlred<31>\visible<31->1}
+      {\hlblue<2>\visible<2->2}
+      {\hlblue<3>\visible<3->1}
+      {\hlgreen<22>\visible<22->2}
+      {\hlblack<22->\visible<22->1}
    };
    \pic (N03) at (4,4) {c4way=%
-      {\hlblack<2>\visible<2->3}
-      {\hlblue<13>\visible<13->2}
-      {\hlgreen<29>\visible<29->2}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<2>\visible<2->3}
+      {\hlblue<3>\visible<3->2}
+      {\hlgreen<21>\visible<21->2}
+      {\hlred<21->\visible<21->0}
    };
    \draw<2-> [post] (N01) to node {Studie}
                       node[swap] {1}  (N02);
@@ -84,36 +92,36 @@
                       node[swap] {}  (N03);
 
    \pic (N04) at (8,4) {c4way=%
-      {\hlblack<3>\visible<3->4}
-      {\hlblue<14>\visible<14->6}
-      {\hlgreen<28>\visible<28->6}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<4>\visible<4->4}
+      {\hlblue<5>\visible<5->6}
+      {\hlgreen<20>\visible<20->6}
+      {\hlred<20->\visible<20->0}
    };
-   \draw<3-> [post] (N03) to node {SE}
+   \draw<4-> [post] (N03) to node {SE}
                       node[swap] {4}  (N04);
 
    \pic (N06) at (12,0) {c4way=%
-      {\hlblack<4>\visible<4->6}
-      {\hlblue<15>\visible<15->9}
-      {\hlgreen<27>\visible<27->9}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<6>\visible<6->6}
+      {\hlblue<7>\visible<7->9}
+      {\hlgreen<18>\visible<18->9}
+      {\hlred<18->\visible<18->0}
    };
    \pic (N08) at (12,8) {c4way=%
-      {\hlblack<5>\visible<5->8}
-      {\hlblue<16>\visible<16->9}
-      {\hlgreen<26>\visible<26->{11}}
-      {\hlred<31>\visible<31->2}
+      {\hlblue<6>\visible<6->8}
+      {\hlblue<7>\visible<7->9}
+      {\hlgreen<18>\visible<18->{11}}
+      {\hlblack<18->\visible<18->2}
    };
-   \draw<4-> [post] (N04) to node {SW}
+   \draw<6-> [post] (N04) to node {SW}
                       node[swap] {3}  (N06);
-   \draw<5-> [post] (N04) to node {HW}
+   \draw<6-> [post] (N04) to node {HW}
                       node[swap] {3}  (N08);
 
    \pic (N05) at (12,4) {c4way=%
-      {\hlblack<1>\visible<6->5}
-      {\hlblue<17>\visible<17->8}
-      {\hlgreen<17>\visible<27->9}
-      {\hlred<31>\visible<31->1}
+      {\hlblue<6>\visible<6->5}
+      {\hlblue<7>\visible<7->8}
+      {\hlgreen<19>\visible<19->9}
+      {\hlblack<19->\visible<19->1}
    };
    \draw<6-> [post] (N04) to node {FM}
                       node[swap] {2}  (N05);
@@ -123,57 +131,62 @@
                       node[swap] {}  (N08);
 
    \pic (N07) at (16,0) {c4way=%
-      {\hlblack<1>\visible<7->7}
-      {\hlblue<18>\visible<18->{15}}
-      {\hlgreen<25>\visible<25->{15}}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<8>\visible<8->7}
+      {\hlblue<8>\visible<8->{15}}
+      {\hlgreen<17>\visible<17->{15}}
+      {\hlred<17->\visible<17->0}
    };
-   \draw<7-> [post] (N06) to node {Pgm}
+   \draw<8-> [post] (N06) to node {Pgm}
                       node[swap] {6}  (N07);
 
    \pic (N09) at (16,8) {c4way=%
-      {\hlblack<1>\visible<8->9}
-      {\hlblue<19>\visible<19->{14}}
-      {\hlgreen<25>\visible<25->{16}}
-      {\hlred<31>\visible<31->2}
+      {\hlblue<9>\visible<9->9}
+      {\hlblue<9>\visible<9->{14}}
+      {\hlgreen<17>\visible<17->{16}}
+      {\hlblack<17->\visible<17->2}
    };
-   \draw<8-> [post] (N08) to node {Proto}
+   \draw<9-> [post] (N08) to node {Proto}
                       node[swap] {5}  (N09);
 
    \pic (N10) at (20,4) {c4way=%
-      {\hlblack<1>\visible<9->{10}}
-      {\hlblue<20>\visible<20->{20}}
-      {\hlgreen<24>\visible<24->{20}}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<10>\visible<10->{10}}
+      {\hlblue<11>\visible<11->{20}}
+      {\hlgreen<16>\visible<16->{20}}
+      {\hlred<16->\visible<16->0}
    };
-   \draw<9-> [post] (N09) to node {HW-TST}
+   \draw<10-> [post] (N09) to node {HW-TST}
                       node[swap] {4}  (N10);
-   \draw<9-> [post] (N07) to node {SW-TST}
+   \draw<10-> [post] (N07) to node {SW-TST}
                       node[swap] {5}  (N10);
 
    \pic (N11) at (24,4) {c4way=%
-      {\hlblack<1>\visible<10->{11}}
-      {\hlblue<21>\visible<21->{22}}
-      {\hlgreen<23>\visible<23->{22}}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<12>\visible<12->{11}}
+      {\hlblue<12>\visible<12->{22}}
+      {\hlgreen<15>\visible<15->{22}}
+      {\hlred<15->\visible<15->0}
    };
-   \draw<10-> [post] (N10) to node {Int}
+   \draw<12-> [post] (N10) to node {Int}
                       node[swap] {2}  (N11);
 
    \pic (N12) at (28,4) {c4way=%
-      {\hlblack<1>\visible<11->{12}}
-      {\hlblue<22>\visible<22->{25}}
-      {\hlgreen<22>\visible<22->{25}}
-      {\hlred<32>\visible<32->0}
+      {\hlblue<13>\visible<13->{12}}
+      {\hlblue<13>\visible<13->{25}}
+      {\hlgreen<13>\visible<13->{25}}
+      {\hlred<14->\visible<14->0}
    };
-   \draw<11-> [post] (N11) to node {Test}
+   \draw<13-> [post] (N11) to node {Test}
                       node[swap] {3}  (N12);
 
  \end{tikzpicture}
 
-\begin{center}
-{\huge
-    \begin{tabular}{r|lccl}
+\begin{columns}
+\column[t]{.60\textwidth}
+
+{\Large
+
+\par\vspace{2cm}\noindent       %Abstand zur Grafik 2cm
+
+    \begin{tabular}{l|lccl}
       \hline
       Nr & Tätigkeit        & Vorgänger & Aufwand & Kurz \\
       1  & Requirements     & -     & 2 & RQ \\
@@ -195,7 +208,44 @@
         & \textbf{Gesamtaufwand} &   & \textbf{40} \\
     \end{tabular}
 }
-\end{center}
+
+\column[t]{.40\textwidth}
+\par\vspace{1cm}\noindent %Abstand
+\begin{itemize}
+
+{\huge
+    \item<only@+> {Dein Netzplan beginnt immer bei einem FA von 0. Schreibe dies in die linke Spalte.}
+
+    \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform), sowie Aufwand/Dauer auf den Pfeil.}
+    \item<only@+> {Schreibe den neuen FA in die linke Spalte. Hierbei addierst du den alten FA mit der Dauer T;
+                   FA = FA + T}
+    \item<only@+> {Füge alle Pfeile zu den möglichen Nachfolger hinzu. Vergiss die Beschreibung und Dauer nicht.}
+    \item<only@+> {Ergänze FA.(linke Spalte)}
+    \item<only@+> {Suche alle Knoten, die den jetzigen Knoten als Vorgänger haben.}
+    \item<only@+> {Ergänze FA.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Bei einem Vorgang mit 2 oder mehr Vorgängern wie hier, wähle den mit dem höheren FA.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Übernehme den FA als SA.}
+    \item<only@+> {Die Differenz aus FA-SA ergibt die Pufferzeit.}
+    \item<only@+> {Der neue SA wird aus der Differenz von SA und der Dauer eines Vorgangs berechnet . Pufferzeit wie gewohnt ausrechnen.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Hier wird der kleinste SA genommen.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item \alert<+> {}
+}
+
+\end{itemize}
+
+\end{columns}
+
 \end{frame}
 
 \end{document} 
