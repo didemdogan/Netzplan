@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,shadows,positioning}
+\usepackage{amsmath,bm,times}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\begin{document}
+\tikzset{box/.style={draw, minimum width=5em,
+    text centered, minimum height=2.5em,inner sep=0pt}}
+
+\newcommand{\trinode}[7] {%
+    \node (#1) [box,minimum width=#4] {#1};
+    \node (#2) [box,minimum width=0.33*#4,below=of #1.south west,
+           anchor=north west] {#2};
+    \node (#3) [box,minimum width=0.33*#4,below=of #1.south,
+           anchor=north] {#6};
+    \node (#4) [box,minimum width=0.33*#4,below=of #1.south east,
+           anchor=north east] {#3};
+    \node (#5) [box,minimum width=0.33*#4,below=of #2.south west,
+           anchor=north west] {#4};
+    \node (#6) [box,minimum width=0.33*#4,below=of #4.south east,
+           anchor=north east] {#5};
+    \node (#7) [box,minimum width=0.33*#4,below=of #3.south,
+           anchor=north] {#7};
+
+}
+
+\begin{tikzpicture}[node distance=0cm,outer sep = 0pt]
+  \trinode{A}{BBBB}{CCCC}{10em}{asd}{sdd}; %dieses 10em darf nur eine zahl sein wieso auch immer stürzt ab bei text
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,333 @@
+SyncTeX Version:1
+Input:1:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.tex
+Input:2:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+Input:3:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+Input:4:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+Input:5:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+Input:6:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+Input:7:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+Input:8:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+Input:9:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+Input:10:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+Input:11:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+Input:12:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+Input:13:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+Input:14:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+Input:15:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+Input:16:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+Input:17:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+Input:18:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+Input:19:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+Input:20:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Input:21:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:22:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+Input:23:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+Input:24:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+Input:25:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+Input:26:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+Input:27:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+Input:28:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+Input:29:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+Input:30:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Input:31:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:32:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+Input:33:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+Input:34:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+Input:35:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+Input:36:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+Input:37:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+Input:38:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+Input:39:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+Input:40:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+Input:41:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+Input:42:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+Input:43:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+Input:44:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+Input:45:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+Input:46:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+Input:47:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+Input:48:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+Input:49:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+Input:50:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+Input:51:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+Input:52:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+Input:53:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+Input:54:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+Input:55:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+Input:56:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+Input:57:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+Input:58:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+Input:59:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+Input:60:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+Input:61:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+Input:62:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+Input:63:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Input:64:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Input:65:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+Input:66:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+Input:67:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:68:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+Input:69:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:70:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+Input:71:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:72:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Input:73:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+Input:74:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+Input:75:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+Input:76:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
+Input:77:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+Input:78:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+Input:79:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
+Input:80:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
+Input:81:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+Input:82:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+Input:83:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+Input:84:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+Input:85:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
+Input:86:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
+Input:87:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
+Input:88:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
+Input:89:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+Input:90:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+Input:91:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+Input:92:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+Input:93:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+Output:pdf
+Magnification:1000
+Unit:1
+X Offset:0
+Y Offset:0
+Content:
+k93,17:6578176,6578176:6578176
+!10039
+k93,21:6578176,6578176:6578176
+!38
+k93,25:6578176,6578176:6578176
+!35
+k93,29:6578176,6578176:6578176
+!35
+k93,41:6578176,6578176:6578176
+!35
+k93,46:6578176,6578176:6578176
+!35
+k93,51:6578176,6578176:6578176
+!35
+k93,56:6578176,6578176:6578176
+!35
+Input:94:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+Input:95:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+Input:96:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+Input:97:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+Input:98:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+Input:99:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+Input:100:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty
+Input:101:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty
+Input:102:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+Input:103:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preview\preview.sty
+Input:104:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\luatex85\luatex85.sty
+Input:105:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preview\prtightpage.def
+Input:106:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.aux
+Input:107:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
+Input:108:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+Input:109:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+Input:110:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+Input:111:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+Input:112:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+Input:113:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+Input:114:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+Input:115:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+Input:116:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+Input:117:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+Input:118:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+Input:119:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+!2341
+{1
+[1,35:327680,5269094:6579814,4941414,0
+h1,35:327680,5269094:0,0,0
+[1,35:327680,5269094:6579814,4941414,0
+(1,35:327680,5269094:6579814,4941414,0
+h1,35:327680,5269094:0,0,0
+(1,35:327680,5269094:6579814,4941414,0
+g1,35:3617587,5269094
+(1,35:3617587,1159987:0,0,0
+(1,35:3617587,1159987:0,0,0
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,32:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:3381003,1159987
+(1,33:3381003,1378877:0,0,0
+(1,33:3381003,1378877:0,0,0
+(1,33:3381003,1378877:473168,437780,0
+x1,33:3854171,1378877
+)
+)
+)
+g1,33:3381003,1159987
+)
+)
+)
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:547897,1159987
+(1,33:547897,3017277:0,0,0
+(1,33:547897,3017277:0,0,0
+(1,33:547897,3017277:1748480,437780,0
+x1,33:2296377,3017277
+)
+)
+)
+g1,33:547897,1159987
+)
+)
+)
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:3162443,1159987
+(1,33:3162443,3018096:0,0,0
+(1,33:3162443,3018096:0,0,0
+(1,33:3162443,3018096:910288,446948,7531
+x1,33:4072731,3018096
+)
+)
+)
+g1,33:3162443,1159987
+)
+)
+)
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:4938797,1159987
+(1,33:4938797,3017277:0,0,0
+(1,33:4938797,3017277:0,0,0
+(1,33:4938797,3017277:1748480,446948,9168
+x1,33:6687277,3017277
+)
+)
+)
+g1,33:4938797,1159987
+)
+)
+)
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:694038,1159987
+(1,33:694038,4655677:0,0,0
+(1,33:694038,4655677:0,0,0
+(1,33:694038,4655677:1456199,446948,9168
+x1,33:2150237,4655677
+)
+)
+)
+g1,33:694038,1159987
+)
+)
+)
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:5376245,1159987
+(1,33:5376245,4656496:0,0,0
+(1,33:5376245,4656496:0,0,0
+(1,33:5376245,4656496:873584,446948,7531
+x1,33:6249829,4656496
+)
+)
+)
+g1,33:5376245,1159987
+)
+)
+)
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+(1,33:3617587,1159987:0,0,0
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+g1,33:3617587,1159987
+(1,33:3617587,1159987:0,0,0
+g1,33:3526496,1159987
+(1,33:3526496,4539681:0,0,0
+(1,33:3526496,4539681:0,0,0
+(1,33:3526496,4539681:182183,298188,92400
+x1,33:3708679,4539681
+)
+)
+)
+g1,33:3526496,1159987
+)
+)
+)
+g1,33:3617587,1159987
+g1,35:3617587,1159987
+)
+g1,35:3617587,1159987
+)
+)
+g1,35:6907494,5269094
+g1,35:6907494,5269094
+)
+]
+]
+!3452
+}1
+Input:120:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.aux
+!67
+Postamble:
+Count:195
+!25
+Post scriptum:
