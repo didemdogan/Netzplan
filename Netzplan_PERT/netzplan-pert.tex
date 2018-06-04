@@ -2,37 +2,38 @@
 \usepackage{german}
 \usepackage{lmodern}
 \usepackage{tikz}
-%
-
-%
-	
+%\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri};
+%%	
 \begin{document}
 \begin{frame}[t,shrink=65]
 
 \begin{tikzpicture}
-\draw[black, thick](0,0) circle(1.5) node {Requirements};
+draw[black, thick](0,0) circle(1.5) node {Requirements};
+%%\draw[] (-1,- 1) -- (1,-1); % Linie im Kreis
+%\path (0, 0) node[draw, circle] { Requirements };
 %\draw[thick] (-1,-1) -- (1,-1);
-\draw[->, red] (1.5,0) -- (3.5,0);
+\draw[->, red] (1.5,0) -- (3.5,0)  node[below left] {2}  node[above left] {1/2/3};
 \draw[black, thick](5.0,0) circle(1.5) node {Systementwurf};
 \draw[->] (6.5,0) -- (8.8,3);
 \draw[black, thick](10.0,4) circle(1.5) node {HW-Entwurf};
-\draw[->] (6.5,0) -- (8.5,0);
+\draw[->] (6.5,0) -- (8.5,0) node[below left] {2}  node[above left] {1.5/2/2.5};
 \draw[black, thick](10.0,0) circle(1.5) node {Funktionsmuster};
 \draw[->, red] (6.5,0) -- (8.8,-3);
 \draw[black, thick](10,-4) circle(1.5) node {SW-Entwurf};
-\draw[->] (11.5,4) -- (13.5,4);
+\draw[->] (11.5,4) -- (13.5,4) node[below left] {5}  node[above left] {4/5/6};
 \draw[black, thick](15,4) circle(1.5) node {Prototyp};
-\draw[->,red] (11.5,-4) -- (13.5,-4);
+\draw[->,red] (11.5,-4) -- (13.5,-4) node[black, below left] {6}  node[black, above left] {5/6/7.5};
 \draw[black, thick](15,-4) circle(1.5) node {Programmierung};
-\draw[->] (16.5,4) -- (18.5,4);
+\draw[->] (16.5,4) -- (18.5,4) node[below left] {4}  node[above left] {3/4/5};
 \draw[black, thick](20,4) circle(1.5) node {HW-Test};
-\draw[->,red] (16.5,-4) -- (18.5,-4);
+\draw[->,red] (16.5,-4) -- (18.5,-4) node[below left] {5};
 \draw[black, thick](20,-4) circle(1.5) node {SW-Test};
 \draw[->,red] (21.5,-4) -- (24.5,-1.5);
 \draw[black, thick](25,0) circle(1.5) node {Integration};
 \draw[->] (21.5,4) -- (24.5,1.5);
-\draw[->,red] (26.5,0) -- (28.5,0);
+\draw[->,red] (26.5,0) -- (28.5,0) node[black, below left] {3}  node[black, above left] {2/3/4};
 \draw[black, thick](30,0) circle(1.5) node {Systemtest};
+
 
 \end{tikzpicture}
 
@@ -69,10 +70,27 @@
 
 \par\vspace{1cm}\noindent 
 \begin{itemize}
-{\huge
-	 \item<only@+> {Dein Netzplan beginnt immer bei einem t$_{F}$ von 0.}
-	 
-	  \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform), sowie Aufwand/Dauer auf den Pfeil.}
+{\huge 
+	\item<only@+> {Suche alle Vorgänge ohne Vorgänger). Alle diese Pfeile gehen vom ersten Knoten aus. Schreibe die Tätigkeiten in den Knoten, sowie Aufwand/Dauer auf den Pfeil.}
+	
+	\item<only@+> {Berechne nun T$_{m}$ und schreibe diese unter den Pfeil.}
+	
+	 \item<only@+> {Dein Netzplan beginnt immer bei einem t$_{F}$ von 0. Dieser wird über den Knoten geschrieben.}
+	  
+	  \item<only@+> {Bei der Vorwärtsrechnung wird zum T$_{F}$  der T$_{m}$ dazugerechnet.}
+	  
+	  \item<only@+> {Berechne T$_{F}$ für alle Knoten und schreibe diese über den jeweiligen Knoten.}
+	  
+	  \item<only@+>{Bei einer Kreuzung wird bei der Vorwärtsrechnung mit dem größeren Wert weitergearbeitet.}
+	  
+	  \item<only@+>{Der Wert für T$_{S}$ wird von  T$_{F}$ übernommen und unter den Knoten geschrieben.}
+	  
+	  \item<only@+>{Nun folgt die Rückwärtsrechnung. Hierbei wird T$_{m}$ von T$_{S}$ abgezogen.}
+	  
+	  \item<only@+>{Bei einer Kreuzung wird der kleinere Wert weiterverarbeitet.}
+	  
+	  \item<only@+>{Als letztes wird der kritische Pfad ermittelt und verdeutlicht.}
+	  	
 	  
 	\item \alert<+> {}
 }
