@@ -1,333 +1,1168 @@
 SyncTeX Version:1
-Input:1:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.tex
-Input:2:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
-Input:3:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
-Input:4:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
-Input:5:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
-Input:6:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
-Input:7:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
-Input:8:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
-Input:9:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
-Input:10:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
-Input:11:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
-Input:12:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
-Input:13:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
-Input:14:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-Input:15:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
-Input:16:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
-Input:17:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
-Input:18:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
-Input:19:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
-Input:20:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
-Input:21:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
-Input:22:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
-Input:23:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
-Input:24:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
-Input:25:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
-Input:26:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
-Input:27:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
-Input:28:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
-Input:29:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
-Input:30:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
-Input:31:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
-Input:32:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
-Input:33:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
-Input:34:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
-Input:35:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
-Input:36:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
-Input:37:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
-Input:38:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
-Input:39:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
-Input:40:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
-Input:41:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
-Input:42:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
-Input:43:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
-Input:44:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
-Input:45:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-Input:46:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
-Input:47:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
-Input:48:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
-Input:49:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
-Input:50:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
-Input:51:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
-Input:52:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
-Input:53:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
-Input:54:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
-Input:55:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
-Input:56:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
-Input:57:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
-Input:58:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
-Input:59:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
-Input:60:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
-Input:61:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
-Input:62:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
-Input:63:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
-Input:64:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-Input:65:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
-Input:66:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
-Input:67:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
-Input:68:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
-Input:69:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
-Input:70:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
-Input:71:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
-Input:72:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-Input:73:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
-Input:74:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
-Input:75:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
-Input:76:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.code.tex
-Input:77:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
-Input:78:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
-Input:79:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.misc.code.tex
-Input:80:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.misc.code.tex
-Input:81:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
-Input:82:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
-Input:83:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
-Input:84:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
-Input:85:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex
-Input:86:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.callouts.code.tex
-Input:87:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex
-Input:88:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.multipart.code.tex
-Input:89:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
-Input:90:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-Input:91:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
-Input:92:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
-Input:93:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+Input:1:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.tex
+Input:2:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamer.cls
+Input:3:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasemodes.sty
+Input:4:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+Input:5:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasedecode.sty
+Input:6:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+Input:7:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseoptions.sty
+Input:8:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+Input:9:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+Input:10:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+Input:11:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+Input:12:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+Input:13:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+Input:14:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+Input:15:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+Input:16:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+Input:17:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+Input:18:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+Input:19:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+Input:20:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+Input:21:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+Input:22:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+Input:23:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+Input:24:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+Input:25:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+Input:26:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+Input:27:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Input:28:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:29:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+Input:30:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+Input:31:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+Input:32:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+Input:33:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+Input:34:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+Input:35:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+Input:36:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+Input:37:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Input:38:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:39:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+Input:40:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+Input:41:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+Input:42:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+Input:43:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+Input:44:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+Input:45:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+Input:46:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+Input:47:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+Input:48:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+Input:49:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+Input:50:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+Input:51:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+Input:52:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+Input:53:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+Input:54:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+Input:55:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+Input:56:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+Input:57:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+Input:58:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+Input:59:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+Input:60:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+Input:61:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+Input:62:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+Input:63:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+Input:64:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+Input:65:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+Input:66:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+Input:67:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+Input:68:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\xxcolor.sty
+Input:69:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+Input:70:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+Input:71:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+Input:72:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+Input:73:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+Input:74:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+Input:75:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+Input:76:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+Input:77:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+Input:78:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+Input:79:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+Input:80:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+Input:81:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+Input:82:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaserequires.sty
+Input:83:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasecompatibility.sty
+Input:84:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasefont.sty
+Input:85:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+Input:86:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+Input:87:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\sansmathaccent.sty
+Input:88:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filehook\filehook.sty
+Input:89:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetranslator.sty
+Input:90:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator.sty
+Input:91:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasemisc.sty
+Input:92:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetwoscreens.sty
+Input:93:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseoverlay.sty
+Input:94:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetitle.sty
+Input:95:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasesection.sty
+Input:96:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseframe.sty
+Input:97:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseverbatim.sty
+Input:98:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseframesize.sty
+Input:99:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseframecomponents.sty
+Input:100:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasecolor.sty
+Input:101:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasenotes.sty
+Input:102:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetoc.sty
+Input:103:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetemplates.sty
+Input:104:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseauxtemplates.sty
+Input:105:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaseboxes.sty
+Input:106:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbaselocalstructure.sty
+Input:107:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+Input:108:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasenavigation.sty
+Input:109:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasetheorems.sty
+Input:110:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+Input:111:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+Input:112:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+Input:113:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+Input:114:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+Input:115:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+Input:116:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbasethemes.sty
+Input:117:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerthemedefault.sty
+Input:118:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerfontthemedefault.sty
+Input:119:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolorthemedefault.sty
+Input:120:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemedefault.sty
+Input:121:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerouterthemedefault.sty
+Input:122:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\german\german.sty
+Input:123:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+Input:124:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+Input:125:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def
+Input:126:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu
+Input:127:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
+Input:128:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+Input:129:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+Input:130:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+Input:131:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+Input:132:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+Input:133:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+Input:134:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+Input:135:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+Input:136:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+Input:137:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+Input:138:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+Input:139:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:140:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+Input:141:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+Input:142:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+Input:143:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+Input:144:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+Input:145:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+Input:146:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+Input:147:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
+Input:148:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+Input:149:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+Input:150:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+Input:151:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+Input:152:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+Input:153:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+Input:154:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+Input:155:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfit.code.tex
+Input:156:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypetri.code.tex
+Input:157:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.aux
+Input:158:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd
+Input:159:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
+Input:160:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+Input:161:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+Input:162:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+Input:163:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+Input:164:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.out
+Input:165:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.out
+Input:166:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+Input:167:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-bibliography-dictionary-English.dict
+Input:168:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-environment-dictionary-English.dict
+Input:169:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-months-dictionary-English.dict
+Input:170:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-numbers-dictionary-English.dict
+Input:171:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translator-theorem-dictionary-English.dict
+Input:172:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.nav
 Output:pdf
 Magnification:1000
 Unit:1
 X Offset:0
 Y Offset:0
 Content:
-k93,17:6578176,6578176:6578176
-!10039
-k93,21:6578176,6578176:6578176
-!38
-k93,25:6578176,6578176:6578176
-!35
-k93,29:6578176,6578176:6578176
-!35
-k93,41:6578176,6578176:6578176
-!35
-k93,46:6578176,6578176:6578176
-!35
-k93,51:6578176,6578176:6578176
-!35
-k93,56:6578176,6578176:6578176
-!35
-Input:94:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
-Input:95:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-Input:96:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-Input:97:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-Input:98:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-Input:99:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-Input:100:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty
-Input:101:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty
-Input:102:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
-Input:103:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preview\preview.sty
-Input:104:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\luatex85\luatex85.sty
-Input:105:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preview\prtightpage.def
-Input:106:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.aux
-Input:107:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd
-Input:108:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
-Input:109:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
-Input:110:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
-Input:111:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
-Input:112:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
-Input:113:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
-Input:114:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
-Input:115:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
-Input:116:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
-Input:117:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
-Input:118:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
-Input:119:C:\Users\Asus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
-!2341
+!17404
 {1
-[1,35:327680,5269094:6579814,4941414,0
-h1,35:327680,5269094:0,0,0
-[1,35:327680,5269094:6579814,4941414,0
-(1,35:327680,5269094:6579814,4941414,0
-h1,35:327680,5269094:0,0,0
-(1,35:327680,5269094:6579814,4941414,0
-g1,35:3617587,5269094
-(1,35:3617587,1159987:0,0,0
-(1,35:3617587,1159987:0,0,0
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,32:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:3381003,1159987
-(1,33:3381003,1378877:0,0,0
-(1,33:3381003,1378877:0,0,0
-(1,33:3381003,1378877:473168,437780,0
-x1,33:3854171,1378877
+[1,80:4736286,17900937:17266942,13164651,0
+h1,80:4736286,4736286:0,0,0
+h1,80:4736286,4736286:0,0,0
+[1,80:4736286,4736286:0,0,0
+(1,80:4736286,-65781:0,0,0
+k1,80:4736286,-65781:2937388
+)
+]
+[1,80:4736286,17900937:17266942,13164651,0
+[1,80:1864679,17900937:20138549,17900937,0
+[1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:20138549,0,0
+[1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:-1864679,0,0
+g1,80:0,0
+(1,80:0,0:0,0,0
+(1,80:0,17900937:23867907,17900937,0
+(1,80:0,17900937:23867907,17900937,0
+r1,80:23867907,17900937:23867907,17900937,0
 )
 )
 )
-g1,33:3381003,1159987
+(1,80:0,0:0,0,0
+(1,80:0,0:0,0,0
+(1,80:0,0:0,0,0
 )
 )
 )
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:547897,1159987
-(1,33:547897,3017277:0,0,0
-(1,33:547897,3017277:0,0,0
-(1,33:547897,3017277:1748480,437780,0
-x1,33:2296377,3017277
+)
+(1,80:1864679,0:-3729358,0,0
+(1,80:1864679,0:0,0,0
+(1,80:1864679,17900937:-1864679,17900937,0
+(1,80:1864679,17900937:-1864679,17900937,0
+g1,80:0,17900937
+(1,80:0,17900937:0,0,0
+[1,80:0,17900937:0,17900937,0
+]
+)
+[1,80:0,17900937:0,17900937,0
+]
 )
 )
 )
-g1,33:547897,1159987
+(1,80:1864679,0:0,0,0
+(1,80:1864679,17900937:22003228,17900937,0
+(1,80:1864679,17900937:22003228,17900937,0
+g1,80:22003228,17900937
+g1,80:23867907,17900937
+(1,80:23867907,17900937:0,0,0
+[1,80:23867907,17900937:0,17900937,0
+]
+)
+[1,80:23867907,17900937:0,17900937,0
+(1,80:23867907,17147272:0,0,0
+k1,80:23681428,17147272:-186479
+g1,80:23867907,17147272
+)
+(1,80:23867907,17769864:0,491520,0
+k1,80:15352888,17769864:-8515019
+(1,80:15352888,17769864:8328540,491520,0
+(1,80:15352888,17769864:1310720,491520,0
+(1,80:15352888,17769864:1310720,458752,0
+g1,80:15352888,17769864
+(1,80:15352888,17671560:0,0,0
+(1,80:15352888,17671560:0,0,0
+g1,80:15352888,17671560
+g1,80:15352888,17671560
+)
+g1,80:15352888,17671560
+)
+)
+v1,80:15352888,17769864:0,491520,0
+v1,80:15746104,17769864:0,491520,0
+v1,80:16270392,17769864:0,491520,0
+)
+g1,80:16756452,17769864
+(1,80:16756452,17769864:1310720,491520,0
+(1,80:16756452,17769864:1310720,458752,0
+g1,80:16756452,17769864
+(1,80:16756452,17671560:0,0,0
+(1,80:16756452,17671560:0,0,0
+g1,80:16756452,17671560
+g1,80:16756452,17671560
+)
+g1,80:16756452,17671560
+)
+)
+v1,80:16756452,17769864:0,491520,0
+v1,80:17084132,17769864:0,491520,0
+v1,80:17411812,17769864:0,491520,0
+v1,80:17739492,17769864:0,491520,0
+)
+g1,80:18160016,17769864
+(1,80:18160016,17769864:1310720,491520,0
+(1,80:18160016,17769864:1310720,458752,0
+g1,80:18160016,17769864
+(1,80:18160016,17671560:0,0,0
+(1,80:18160016,17671560:0,0,0
+g1,80:18160016,17671560
+g1,80:18160016,17671560
+)
+g1,80:18160016,17671560
+)
+)
+v1,80:18160016,17769864:0,491520,0
+v1,80:18487696,17769864:0,491520,0
+v1,80:18815376,17769864:0,491520,0
+v1,80:19143056,17769864:0,491520,0
+)
+g1,80:19563580,17769864
+(1,80:19563580,17769864:1310720,491520,0
+(1,80:19563580,17769864:1310720,458752,0
+g1,80:19563580,17769864
+(1,80:19563580,17671560:0,0,0
+(1,80:19563580,17671560:0,0,0
+g1,80:19563580,17671560
+g1,80:19563580,17671560
+)
+g1,80:19563580,17671560
+)
+)
+v1,80:19563580,17769864:0,491520,0
+v1,80:19891260,17769864:0,491520,0
+v1,80:20218940,17769864:0,491520,0
+v1,80:20546620,17769864:0,491520,0
+)
+g1,80:20967144,17769864
+(1,80:20967144,17769864:1310720,491520,0
+(1,80:20967144,17769864:1310720,458752,0
+g1,80:20967144,17769864
+(1,80:20967144,17671560:0,0,0
+(1,80:20967144,17671560:0,0,0
+g1,80:20967144,17671560
+g1,80:20967144,17671560
+)
+g1,80:20967144,17671560
+)
+)
+v1,80:20967144,17769864:0,491520,0
+v1,80:21556968,17769864:0,491520,0
+)
+g1,80:22370708,17769864
+(1,80:22370708,17769864:1310720,491520,0
+(1,80:22370708,17769864:1310720,458752,0
+g1,80:22370708,17769864
+(1,80:22370708,17671560:0,0,0
+(1,80:22370708,17671560:0,0,0
+g1,80:22370708,17671560
+g1,80:22370708,17671560
+)
+g1,80:22370708,17671560
+)
+)
+v1,80:22370708,17769864:0,491520,0
+v1,80:22829460,17769864:0,491520,0
+v1,80:23222676,17769864:0,491520,0
+)
+)
+g1,80:23867907,17769864
+)
+]
 )
 )
 )
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:3162443,1159987
-(1,33:3162443,3018096:0,0,0
-(1,33:3162443,3018096:0,0,0
-(1,33:3162443,3018096:910288,446948,7531
-x1,33:4072731,3018096
+(1,80:1864679,0:-3729358,0,0
+g1,80:0,0
+(1,80:0,0:0,0,0
+[1,80:0,0:0,0,0
+]
+)
+g1,80:-1864679,0
+)
+g1,80:-1864679,0
+)
+(1,80:1864679,0:20138549,0,0
+h1,80:1864679,0:0,0,0
+k1,80:22003227,0:20138548
+g1,80:22003227,0
+)
+]
+)
+)
+]
+[1,80:1864679,17638793:20138549,17638793,0
+[1,80:1864679,17638793:20138549,17638793,0
+v1,80:1864679,0:0,0,0
+(1,80:1864679,17638793:20138549,17265863,0
+h1,80:1864679,17638793:0,0,0
+(1,80:1864679,17638793:0,17265863,0
+g1,80:1864679,17638793
+(1,80:1864679,372930:0,0,0
+(1,80:1864679,372930:0,0,0
+(1,80:1864679,372930:0,0,0
+g1,80:1864679,372930
+(1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:57926599,6161035,0
+[1,80:1864679,2531492:57926599,6161035,0
+v1,80:1864679,-3629543:0,0,0
+(1,80:1864679,2531492:57926599,6095499,0
+h1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:6043669,6095499,0
+g1,80:2301204,2531492
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
 )
 )
-g1,33:3162443,1159987
+g1,80:2103859,9501853
 )
 )
 )
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:4938797,1159987
-(1,33:4938797,3017277:0,0,0
-(1,33:4938797,3017277:0,0,0
-(1,33:4938797,3017277:1748480,446948,9168
-x1,33:6687277,3017277
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
 )
 )
-g1,33:4938797,1159987
+g1,80:2103859,9501853
 )
 )
 )
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:694038,1159987
-(1,33:694038,4655677:0,0,0
-(1,33:694038,4655677:0,0,0
-(1,33:694038,4655677:1456199,446948,9168
-x1,33:2150237,4655677
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
 )
 )
-g1,33:694038,1159987
+g1,80:2103859,9501853
 )
 )
 )
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:5376245,1159987
-(1,33:5376245,4656496:0,0,0
-(1,33:5376245,4656496:0,0,0
-(1,33:5376245,4656496:873584,446948,7531
-x1,33:6249829,4656496
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
 )
 )
-g1,33:5376245,1159987
+g1,80:2103859,9501853
 )
 )
 )
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-(1,33:3617587,1159987:0,0,0
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-g1,33:3617587,1159987
-(1,33:3617587,1159987:0,0,0
-g1,33:3526496,1159987
-(1,33:3526496,4539681:0,0,0
-(1,33:3526496,4539681:0,0,0
-(1,33:3526496,4539681:182183,298188,92400
-x1,33:3708679,4539681
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
 )
 )
-g1,33:3526496,1159987
+g1,80:2103859,9501853
 )
 )
 )
-g1,33:3617587,1159987
-g1,35:3617587,1159987
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
 )
-g1,35:3617587,1159987
 )
 )
-g1,35:6907494,5269094
-g1,35:6907494,5269094
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+)
+)
+g1,80:2301204,9501853
+)
+g1,80:2301204,9501853
+)
+)
+k1,80:33849812,2531492:25941464
+k1,80:59791276,2531492:25941464
+)
+]
+)
+)
+)
+g1,80:1864679,372930
+)
+g1,80:1864679,372930
+)
+g1,80:1864679,372930
+)
+)
+k1,80:11933953,17638793:10069274
+k1,80:22003227,17638793:10069274
 )
 ]
 ]
-!3452
+(1,80:1864679,17900937:20138549,0,0
+(1,80:1864679,17900937:20138549,0,0
+[1,80:1864679,17900937:0,0,0
+(1,80:1864679,17900937:-3729358,0,0
+(1,80:1864679,17900937:-3729358,0,0
+g1,80:0,17900937
+(1,80:0,17900937:0,0,0
+[1,80:0,17900937:0,0,0
+]
+)
+g1,80:-1864679,17900937
+)
+g1,80:-1864679,17900937
+g1,80:-1864679,17900937
+)
+h1,80:1864679,17900937:0,0,0
+]
+k1,80:22003227,17900937:20138548
+)
+)
+]
+]
+]
+!9721
 }1
-Input:120:C:\Users\Asus\Documents\PM_Werkstatt\ubung1.aux
-!67
+!9
+{2
+[1,80:4736286,17900937:17266942,13164651,0
+h1,80:4736286,4736286:0,0,0
+[1,80:4736286,4736286:0,0,0
+(1,80:4736286,-65781:0,0,0
+k1,80:4736286,-65781:2937388
+)
+]
+[1,80:4736286,17900937:17266942,13164651,0
+[1,80:1864679,17900937:20138549,17900937,0
+[1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:20138549,0,0
+[1,80:1864679,0:20138549,0,0
+(1,80:1864679,0:-1864679,0,0
+g1,80:0,0
+(1,80:0,0:0,0,0
+(1,80:0,17900937:23867907,17900937,0
+(1,80:0,17900937:23867907,17900937,0
+r1,80:23867907,17900937:23867907,17900937,0
+)
+)
+)
+(1,80:0,0:0,0,0
+(1,80:0,0:0,0,0
+(1,80:0,0:0,0,0
+)
+)
+)
+)
+(1,80:1864679,0:-3729358,0,0
+(1,80:1864679,0:0,0,0
+(1,80:1864679,17900937:-1864679,17900937,0
+(1,80:1864679,17900937:-1864679,17900937,0
+g1,80:0,17900937
+(1,80:0,17900937:0,0,0
+[1,80:0,17900937:0,17900937,0
+]
+)
+[1,80:0,17900937:0,17900937,0
+]
+)
+)
+)
+(1,80:1864679,0:0,0,0
+(1,80:1864679,17900937:22003228,17900937,0
+(1,80:1864679,17900937:22003228,17900937,0
+g1,80:22003228,17900937
+g1,80:23867907,17900937
+(1,80:23867907,17900937:0,0,0
+[1,80:23867907,17900937:0,17900937,0
+]
+)
+[1,80:23867907,17900937:0,17900937,0
+(1,80:23867907,17147272:0,0,0
+k1,80:23681428,17147272:-186479
+g1,80:23867907,17147272
+)
+(1,80:23867907,17769864:0,491520,0
+k1,80:15352888,17769864:-8515019
+(1,80:15352888,17769864:8328540,491520,0
+(1,80:15352888,17769864:1310720,491520,0
+(1,80:15352888,17769864:1310720,458752,0
+g1,80:15352888,17769864
+(1,80:15352888,17671560:0,0,0
+(1,80:15352888,17671560:0,0,0
+g1,80:15352888,17671560
+g1,80:15352888,17671560
+)
+g1,80:15352888,17671560
+)
+)
+v1,80:15352888,17769864:0,491520,0
+v1,80:15746104,17769864:0,491520,0
+v1,80:16270392,17769864:0,491520,0
+)
+g1,80:16756452,17769864
+(1,80:16756452,17769864:1310720,491520,0
+(1,80:16756452,17769864:1310720,458752,0
+g1,80:16756452,17769864
+(1,80:16756452,17671560:0,0,0
+(1,80:16756452,17671560:0,0,0
+g1,80:16756452,17671560
+g1,80:16756452,17671560
+)
+g1,80:16756452,17671560
+)
+)
+v1,80:16756452,17769864:0,491520,0
+v1,80:17084132,17769864:0,491520,0
+v1,80:17411812,17769864:0,491520,0
+v1,80:17739492,17769864:0,491520,0
+)
+g1,80:18160016,17769864
+(1,80:18160016,17769864:1310720,491520,0
+(1,80:18160016,17769864:1310720,458752,0
+g1,80:18160016,17769864
+(1,80:18160016,17671560:0,0,0
+(1,80:18160016,17671560:0,0,0
+g1,80:18160016,17671560
+g1,80:18160016,17671560
+)
+g1,80:18160016,17671560
+)
+)
+v1,80:18160016,17769864:0,491520,0
+v1,80:18487696,17769864:0,491520,0
+v1,80:18815376,17769864:0,491520,0
+v1,80:19143056,17769864:0,491520,0
+)
+g1,80:19563580,17769864
+(1,80:19563580,17769864:1310720,491520,0
+(1,80:19563580,17769864:1310720,458752,0
+g1,80:19563580,17769864
+(1,80:19563580,17671560:0,0,0
+(1,80:19563580,17671560:0,0,0
+g1,80:19563580,17671560
+g1,80:19563580,17671560
+)
+g1,80:19563580,17671560
+)
+)
+v1,80:19563580,17769864:0,491520,0
+v1,80:19891260,17769864:0,491520,0
+v1,80:20218940,17769864:0,491520,0
+v1,80:20546620,17769864:0,491520,0
+)
+g1,80:20967144,17769864
+(1,80:20967144,17769864:1310720,491520,0
+(1,80:20967144,17769864:1310720,458752,0
+g1,80:20967144,17769864
+(1,80:20967144,17671560:0,0,0
+(1,80:20967144,17671560:0,0,0
+g1,80:20967144,17671560
+g1,80:20967144,17671560
+)
+g1,80:20967144,17671560
+)
+)
+v1,80:20967144,17769864:0,491520,0
+v1,80:21556968,17769864:0,491520,0
+)
+g1,80:22370708,17769864
+(1,80:22370708,17769864:1310720,491520,0
+(1,80:22370708,17769864:1310720,458752,0
+g1,80:22370708,17769864
+(1,80:22370708,17671560:0,0,0
+(1,80:22370708,17671560:0,0,0
+g1,80:22370708,17671560
+g1,80:22370708,17671560
+)
+g1,80:22370708,17671560
+)
+)
+v1,80:22370708,17769864:0,491520,0
+v1,80:22829460,17769864:0,491520,0
+v1,80:23222676,17769864:0,491520,0
+)
+)
+g1,80:23867907,17769864
+)
+]
+)
+)
+)
+(1,80:1864679,0:-3729358,0,0
+g1,80:0,0
+(1,80:0,0:0,0,0
+[1,80:0,0:0,0,0
+]
+)
+g1,80:-1864679,0
+)
+g1,80:-1864679,0
+)
+(1,80:1864679,0:20138549,0,0
+h1,80:1864679,0:0,0,0
+k1,80:22003227,0:20138548
+g1,80:22003227,0
+)
+]
+)
+)
+]
+[1,80:1864679,17638793:20138549,17638793,0
+[1,80:1864679,17638793:20138549,17638793,0
+v1,80:1864679,0:0,0,0
+(1,80:1864679,17638793:20138549,17265863,0
+h1,80:1864679,17638793:0,0,0
+(1,80:1864679,17638793:0,17265863,0
+g1,80:1864679,17638793
+(1,80:1864679,372930:0,0,0
+(1,80:1864679,372930:0,0,0
+(1,80:1864679,372930:0,0,0
+g1,80:1864679,372930
+(1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:57926599,6161035,0
+[1,80:1864679,2531492:57926599,6161035,0
+v1,80:1864679,-3629543:0,0,0
+(1,80:1864679,2531492:57926599,6095499,0
+h1,80:1864679,2531492:0,0,0
+(1,80:1864679,2531492:6043669,6095499,0
+g1,80:2301204,2531492
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+(1,80:2301204,9501853:0,0,0
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+g1,80:2301204,9501853
+(1,80:2301204,9501853:0,0,0
+g1,80:2103859,9501853
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:0,0,0
+(1,80:2103859,2292312:394690,498350,0
+x1,80:2498549,2292312
+)
+)
+)
+g1,80:2103859,9501853
+)
+)
+)
+g1,80:2301204,9501853
+)
+)
+g1,80:2301204,9501853
+)
+g1,80:2301204,9501853
+)
+)
+k1,80:33849812,2531492:25941464
+k1,80:59791276,2531492:25941464
+)
+]
+)
+)
+)
+g1,80:1864679,372930
+)
+g1,80:1864679,372930
+)
+g1,80:1864679,372930
+)
+)
+k1,80:11933953,17638793:10069274
+k1,80:22003227,17638793:10069274
+)
+]
+]
+(1,80:1864679,17900937:20138549,0,0
+(1,80:1864679,17900937:20138549,0,0
+[1,80:1864679,17900937:0,0,0
+(1,80:1864679,17900937:-3729358,0,0
+(1,80:1864679,17900937:-3729358,0,0
+g1,80:0,17900937
+(1,80:0,17900937:0,0,0
+[1,80:0,17900937:0,0,0
+]
+)
+g1,80:-1864679,17900937
+)
+g1,80:-1864679,17900937
+g1,80:-1864679,17900937
+)
+h1,80:1864679,17900937:0,0,0
+]
+k1,80:22003227,17900937:20138548
+)
+)
+]
+]
+]
+!9689
+}2
+Input:173:C:\Users\Asus\Documents\PM_Werkstatt\Netzplan\Netzplan\Netzplan_MPM\ErsteZeichnung_MPM\ubung1.aux
+!117
 Postamble:
-Count:195
-!25
+Count:966
+!26
 Post scriptum:
