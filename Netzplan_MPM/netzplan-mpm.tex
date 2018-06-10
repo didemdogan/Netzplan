@@ -46,15 +46,7 @@
 \makeatother
 
 
-\tikzset {
-  pics/c4way/.style n args = {4}{
-    named scope code = {
-      \draw[line width=1pt]  (0,0) circle (1cm);
-      \foreach \angle in {45, 135, 225, 315}{ \draw[line width=1pt] (\angle:0cm) -- (\angle:1cm); }
-      \foreach \angle / \label in {90/#1, 180/#2, 0/#3, 270/#4}{ \draw (\angle:0.6cm) node{\textbf{\label}}; }
-    }
-  }
-}
+
 
 \begin{document}
 \begin{frame}[t,shrink=65]
@@ -65,8 +57,189 @@
    pre/.style={<-,shorten <=1pt,>=stealth',semithick},
    post/.style={->,shorten >=1pt,>=stealth',semithick}]
 
-  
-\end{tikzpicture}
+
+\end{tikzpicture} 
+\begin{minipage}{0.11\textwidth}
+\begin{tabular}{|c|c|c|}
+               
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.11\textwidth}
+\begin{tabular}{|c|c|c|}
+
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<3->\visible<3->4} & \multicolumn{2}{c|}{\hlblack<3>\visible<3->{HW}}
+                    \\ \hline
+                        {\hlblue<3>\visible<3->6} & {\hlblack<3>\visible<3->3} & {\hlblue<3>\visible<3->8}
+                    \\ \hline
+                        {\hlgreen<15>\visible<15->8} & {\hlred<18>\visible<18->2} &{\hlgreen<15>\visible<15->{10}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<4>\visible<4->7} & \multicolumn{2}{c|}{\hlblack<4>\visible<4->{Proto}}
+                    \\ \hline
+                        {\hlblue<4>\visible<4->9} & {\hlblack<4>\visible<4->5} & {\hlblue<4>\visible<4->{13}}
+                    \\ \hline
+                        {\hlgreen<12>\visible<12->{11}} & {\hlred<18>\visible<18->2} & {\hlgreen<12>\visible<12->{15}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<5>\visible<5->9} & \multicolumn{2}{c|}{\hlblack<5>\visible<5->{HW-Test}}
+                    \\ \hline
+                        {\hlblue<5>\visible<5->{14}} & {\hlblack<5>\visible<5->4} & {\hlblue<5>\visible<5->{17}}
+                    \\ \hline
+                        {\hlgreen<11>\visible<11->{16}} & {\hlred<18>\visible<18->2} & {\hlgreen<11>\visible<11->{19}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\bigskip
+\bigskip
+
+\begin{minipage}{0.11\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<1->\visible<1->1} & \multicolumn{2}{c|}{\hlblack<1->\visible<1->{RQ}}
+                    \\ \hline
+                       {\hlblue<1>\visible<1->0} & {\hlblack<1->\visible<1->2} & {\hlblue<1>\visible<1->1}
+                    \\ \hline
+                        {\hlgreen<17>\visible<17->0} & {\hlred<18>\visible<18->0} & {\hlgreen<17>\visible<17->1}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.11\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                    {\hlblack<2->\visible<2->3} & \multicolumn{2}{c|}{\hlblack<2->\visible<2->{SE}}
+                    \\ \hline
+                    {\hlblue<2>\visible<2->2} & {\hlblack<2->\visible<2->4} & {\hlblue<2>\visible<2->5}
+                    \\ \hline
+                        {\hlgreen<16>\visible<16->2} & {\hlred<18>\visible<18->0} & {\hlgreen<16>\visible<16->5}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<3>\visible<3->5} & \multicolumn{2}{c|}{\hlblack<3>\visible<3->{FM}}
+                    \\ \hline
+                        {\hlblue<3>\visible<3->6} & {\hlblack<3>\visible<3->2} & {\hlblue<3>\visible<3->7}
+                    \\ \hline
+                        {\hlgreen<14>\visible<14->7} & {\hlred<18>\visible<18->1} & {\hlgreen<14>\visible<14->8}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\begin{tabular}{|c|c|c|}
+
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+
+\begin{tabular}{|c|c|c|}
+
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<7>\visible<7->{11}} & \multicolumn{2}{c|}{\hlblack<7>\visible<7->{Int}}
+                    \\ \hline
+                        {\hlblue<7>\visible<7->{20}} & {\hlblack<7>\visible<7->2} & {\hlblue<7>\visible<7->{21}}
+                    \\ \hline
+                        {\hlgreen<10>\visible<10->{20}} & {\hlred<18>\visible<18->0} & {\hlgreen<10>\visible<10->{21}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<8>\visible<8->{12}} & \multicolumn{2}{c|}{\hlblack<8>\visible<8->{Test}}
+                    \\ \hline
+                        {\hlblue<8>\visible<8->{22}} & {\hlblack<8>\visible<8->3} & {\hlblue<8>\visible<8->{24}}
+                    \\ \hline
+                        {\hlgreen<9>\visible<9->{22}} & {\hlred<18>\visible<18->0} & {\hlgreen<9>\visible<9->{24}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\bigskip
+\bigskip
+
+\begin{minipage}{0.11\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                    {\hlblack<1->\visible<1->2} & \multicolumn{2}{c|}{\hlblack<1->\visible<1->{Studie}}
+                    \\ \hline
+                    {\hlblue<1>\visible<1->0} & {\hlblack<1->\visible<1->1} & {\hlblue<1>\visible<1->0}
+                    \\ \hline
+                        {\hlgreen<17>\visible<17->1} & {\hlred<18>\visible<18->1} & {\hlgreen<17>\visible<17->1}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.11\textwidth}
+\begin{tabular}{|c|c|c|}
+
+
+
+
+\end{tabular}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<3>\visible<3->6} & \multicolumn{2}{c|}{\hlblack<3>\visible<3->{SW}}
+                    \\ \hline
+                        {\hlblue<3>\visible<3->6} & {\hlblack<3>\visible<3->3} & {\hlblue<3>\visible<3->8}
+                    \\ \hline
+                        {\hlgreen<15>\visible<15->6} & {\hlred<18>\visible<18->0} & {\hlgreen<15>\visible<15->8}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<4>\visible<4->8} & \multicolumn{2}{c|}{\hlblack<4>\visible<4->{Pgm}}
+                    \\ \hline
+                        {\hlblue<4>\visible<4->9} & {\hlblack<4>\visible<4->6} & {\hlblue<4>\visible<4->{14}}
+                    \\ \hline
+                        {\hlgreen<13>\visible<13->9} & {\hlred<18>\visible<18->0} & {\hlgreen<13>\visible<13->{14}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+\begin{minipage}{0.15\textwidth}
+\scalebox{1.5}{%
+\begin{tabular}{|c|c|c|}
+                    \hline
+                        {\hlblack<6>\visible<6->{10}} & \multicolumn{2}{c|}{\hlblack<6>\visible<6->{SW-Test}}
+                    \\ \hline
+                        {\hlblue<6>\visible<6->{15}} & {\hlblack<6>\visible<6->5} & {\hlblue<6>\visible<6->{19}}
+                    \\ \hline
+                        {\hlgreen<11>\visible<11->{15}} & {\hlred<18>\visible<18->0} & {\hlgreen<11>\visible<11->{19}}
+                    \\ \hline
+\end{tabular}}
+\end{minipage}
+
+
 
 
 
@@ -83,18 +256,15 @@
       1  & Requirements     & -     & 2 & RQ \\
       2  & Studie           & -     & 1 & Studie \\
       3  & Systementwurf    & 1     & 4 & SE \\
-      4  &   3              & 2     & - & \\
-      5  & HW-Entwurf       & 3     & 3 & HW \\
-      6  & Funktionsmuster  & 3     & 2 & FM \\
-      7  & SW-Entwurf       & 3     & 3 & SW \\
-      8  & Programmierung   & 7     & 6 & Pgm \\
-      9  & 8                & 6     & - & \\
-      10 & SW-Test          & 8     & 5 & SW-Test \\
-      11 & Prototyp-Entwicklung & 5 & 5 & Proto \\
-      12 & 11               & 6     & - & \\
-      13 & HW-Test          & 11    & 4 & HW-Test \\
-      14 & Integration      & 10; 13 & 2 & Int \\
-      15 & System-Test      & 14    & 3 & Test \\
+      4  & HW-Entwurf       & 3     & 3 & HW \\
+      5  & Funktionsmuster  & 3     & 2 & FM \\
+      6  & SW-Entwurf       & 3     & 3 & SW \\
+      7  & Programmierung   & 7     & 6 & Pgm \\
+      8 & SW-Test          & 8     & 5 & SW-Test \\
+      9 & Prototyp-Entwicklung & 5 & 5 & Proto \\
+      10 & HW-Test          & 11    & 4 & HW-Test \\
+      11 & Integration      & 10; 13 & 2 & Int \\
+      12 & System-Test      & 14    & 3 & Test \\
       \hline
         & \textbf{Gesamtaufwand} &   & \textbf{40} \\
     \end{tabular}
@@ -105,44 +275,38 @@
 \begin{itemize}
 
 {\huge
-    \item<only@+> {Dein Netzplan beginnt immer bei einem FA(Frühester Anfang) von 0. Schreibe dies in die linke Spalte.}
+    \item<only@+> {Alle Vorgänge ohne Vorgänger(siehe Liste) werden als Startknoten gewählt. Die Tätigkeit wird oben rechts in die größere Spalte geschrieben und der Aufwand darunter in die Mitte. Der Netzplan beginnt immer bei einem FAZ(Frühester Anfangszeitpunkt) von 0(linke mittlere Spalte). FEZ(Frühester Endzeitpunkt) = FAZ + T - 1(rechte mittlere Spalte).}
 
-    \item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform), sowie Aufwand/Dauer auf den Pfeil.}
-    \item<only@+> {Schreibe den neuen FA in die linke Spalte. Hierbei addierst du den alten FA mit der Dauer T;
-                   FA = FA + T}
-    \item<only@+> {Füge alle Pfeile zu den möglichen Nachfolger hinzu. Vergiss die Beschreibung und Dauer nicht.}
-    \item<only@+> {Ergänze FA.}
-    \item<only@+> {Suche alle Knoten, die den jetzigen Knoten als Vorgänger haben.}
-    \item<only@+> {Ergänze FA.}
-    \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Bei einem Vorgang mit 2 oder mehr Vorgängern wie hier, wähle den mit dem höheren FA.}
-    \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Übernehme den FA als SA(Spätester Anfang).}
-    \item<only@+> {Die Differenz aus FA-SA ergibt die Pufferzeit.}
-    \item<only@+> {Der neue SA wird aus der Differenz von SA und der Dauer eines Vorgangs berechnet . Pufferzeit wie gewohnt ausrechnen.}
+    \item<only@+> {Suche Tätigkeiten, die die Startknoten als Vorgänger haben(Liste) -> diese sind die nächsten ausgehenden Knoten. Bei mehreren Vorgängern wird der MAX(FAZ) als neuer FAZ genommen, jedoch ist zu beachten, dass bei dem Übergang von einem Knoten zum anderen der FAZ+1 genommen. Rest wird wie gewohnt hinzugefügt.}
+    \item<only@+> {Schritte wie gewohnt.}
+    \item<only@+> {Siehe Schritt 2(mehrere Knoten gehen über in einen Knoten, somit ist MAX(FAZ) gefragt).}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Hier wird der kleinste SA genommen.}
+    \item<only@+> {Nun wird der letzte FEZ automatisch als SEZ(rechte untere Spalte) übernommen. SAZ berechnet sich folgendermaßen: SAZ = SEZ - T + 1 (linke untere Spalte)}
+    \item<only@+> {Bei einem Übergang von einem Knoten zum anderen wird der davorige SEZ-1 genommen. Rest verläuft wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
     \item<only@+> {Schritt wie gewohnt.}
-    \item<only@+> {Zeichne den kritischen Pfad ein (hier: rot markiert).}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Hierbei wird geschaut, welcher SEZ kleiner ist. Dieser wird als SAZ - 1 übernommen.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Schritt wie gewohnt.}
+    \item<only@+> {Die Differenz aus SEZ-FEZ ergibt die Pufferzeit. Zeichne den kritischen Pfad ein (rot markiert).}
     \item \alert<+> {}
 }
 
 \end{itemize}
 
-\par\vspace{2cm}\noindent %Abstand
+\par\vspace{0.1cm}\noindent %Abstand
 
 \only<1>{\begin{alertblock}{Merke!}
-    Die Nummerierungen der Kreise haben nichts mit der Nummerierung der Vorgänge zu tun. Kreisnummer wird beliebig eingesetzt.
+    Nummerierung der Knoten hat nichts mit Nummerierung der Vorgänge zu tun. Knotennummer wird beliebig gesetzt.
 \end{alertblock}
 }
 
-\only<23>{\begin{alertblock}{Merke!}
+\only<18>{\begin{alertblock}{Merke!}
    Alle Vorgänge mit einer Pufferzeit von 0 gehören zu dem kritischen Pfad.
 \end{alertblock}
 }

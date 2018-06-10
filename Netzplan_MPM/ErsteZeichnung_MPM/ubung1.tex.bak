@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.multipart}
+\tikzset{
+state/.style={
+       rectangle split,
+       rectangle split parts=2,
+       rectangle split part fill={red!30,blue!20},
+       rounded corners,
+       draw=black, very thick,
+       minimum height=2em,
+       text width=3cm,
+       inner sep=2pt,
+       text centered,
+       }
+}
+\begin{document}
+\begin{tikzpicture}
+\node [state] {text\\txet \nodepart{two} blue background \\ here};
+\end{tikzpicture}
+\end{document}

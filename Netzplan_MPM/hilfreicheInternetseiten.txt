@@ -1,0 +1,10 @@
+https://tex.stackexchange.com/questions/152292/split-a-node-into-3-parts/152362
+
+https://tex.stackexchange.com/questions/301404/how-to-split-tikz-rectangle-by-half-with-different-colors-and-text-lines?rq=1
+
+https://tex.stackexchange.com/questions/128232/tikz-nested-rectangle-split-with-rounded-corners
+
+https://tex.stackexchange.com/questions/249568/nesting-rectangle-split-nodes
+
+https://tex.stackexchange.com/questions/152292/split-a-node-into-3-parts
+
