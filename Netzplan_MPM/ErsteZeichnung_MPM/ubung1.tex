@@ -1,0 +1,81 @@
+\documentclass{beamer}
+
+\usepackage{german}	%Block zum Setzen von Umlauten
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+
+\mode<presentation>
+\definecolor{hdaRot}{cmyk}{0,1,1,0.18}     % -5005
+\definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0}     % -1169
+\definecolor{hdaGruenMed}{cmyk}{0.5,0.13,1,0.06}    % -2048
+
+\setbeamercolor*{kred}{fg=hdaRot}
+\setbeamercolor*{kblue}{fg=hdaBlauMed}
+\setbeamercolor*{kgreen}{fg=hdaGruenMed}
+\setbeamercolor*{kblack}{fg=black}
+\setbeamerfont{block body alerted}{size=\huge}
+\setbeamerfont{block title alerted}{size=\huge}
+\setbeamercovered{transparent=25}
+\usebeamercolor{normal text}
+\mode<all>
+
+\newcommand{\hlblue}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kblue}}}
+
+\newcommand{\hlgreen}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kgreen}}}
+
+\newcommand{\hlblack}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kblack}}}
+
+\newcommand{\hlred}{%
+ \usebeamercolor[fg]{normal text}%
+ \only{\usebeamercolor[fg]{kred}}}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}%
+
+\makeatletter
+\tikzset{pics/named scope code/.style={code={\tikz@fig@mustbenamed%
+  \begin{scope}[local bounding box/.expanded=\tikz@fig@name]#1\end{scope}%
+}}}
+\makeatother
+
+\tikzset {
+  pics/c4way/.style n args = {9}{
+    named scope code = {
+          \draw (0,0) grid (3,3);
+         % \foreach \node in {(0.5,2.5),(1.5,2.5)(2.5,2.5),(0.5,1.5),(1.5,1.5),(2.5,1.5),(0.5,0.5),(1.5,0.5),(2.5,0.5)};
+           \foreach \node / \label in {(0.5,2.5)/#1,(1.5,2.5)/#2,(2.5,2.5)/#3,(0.5,1.5)/#4,(1.5,1.5)/#5,(2.5,1.5)/#6,(0.5,0.5)/#7, (1.5,0.5)/#8,(2.5,0.5)/#9}{ \draw node{\textbf{\label}}; }
+    }
+  }
+}
+
+
+\begin{document}
+\begin{frame}[t,shrink=65]
+\begin{tikzpicture}
+
+  
+  \pic (N01) at (0,4) {c4way=%
+      {\hlblue<1>\visible<1->1}
+      {\hlblue<2>\visible<1->3}
+      {\hlgreen<2>\visible<2>5}
+      {\hlblue<1>\visible<1->1}
+      {\hlblue<2>\visible<1->0}
+      {\hlgreen<2>\visible<2>9}
+      {\hlblue<1>\visible<1->9}
+      {\hlblue<2>\visible<1->7}
+      {\hlgreen<2>\visible<2>0}
+      };
+  
+  
+ 
+\end{tikzpicture}
+\end{frame}
+\end{document}    
