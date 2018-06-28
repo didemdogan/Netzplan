@@ -1,101 +1,223 @@
 \documentclass{beamer}
-\usepackage{german}
+\usepackage{german} %Block zum Setzen von Umlauten
 \usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\mode<presentation>
+\definecolor{hdaRot}{cmyk}{0,1,1,0.18} % -5005
+\definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0} % -1169
+\definecolor{hdaGruenMed}{cmyk}{0.5,0.13,1,0.06} % -2048
+\setbeamercolor*{kred}{fg=hdaRot}
+\setbeamercolor*{kblue}{fg=hdaBlauMed}
+\setbeamercolor*{kgreen}{fg=hdaGruenMed}
+\setbeamercolor*{kblack}{fg=black}
+\setbeamerfont{block body alerted}{size=\huge}
+\setbeamerfont{block title alerted}{size=\huge}
+\setbeamercovered{transparent=25}
+\usebeamercolor{normal text}
+\mode<all>
+\newcommand{\hlblue}{%
+\usebeamercolor[fg]{normal text}%
+\only{\usebeamercolor[fg]{kblue}}}
+\newcommand{\hlgreen}{%
+\usebeamercolor[fg]{normal text}%
+\only{\usebeamercolor[fg]{kgreen}}}
+\newcommand{\hlblack}{%
+\usebeamercolor[fg]{normal text}%
+\only{\usebeamercolor[fg]{kblack}}}
+\newcommand{\hlred}{%
+\usebeamercolor[fg]{normal text}%
+\only{\usebeamercolor[fg]{kred}}}
 \usepackage{tikz}
-%\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri};
-%%	
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri}%
+\makeatletter
+\tikzset{pics/named scope code/.style={code={\tikz@fig@mustbenamed%
+\begin{scope}[local bounding box/.expanded=\tikz@fig@name]#1\end{scope}%
+}}}
+\makeatother
+\tikzset {
+pics/p2way/.style n args = {2}{
+named scope code = {
+\draw[line width=1pt] (0,0) circle (1cm);
+\foreach \angle in {0, 180}{ \draw[line width=1pt] (\angle:0cm) -- (\angle:1cm); }
+\foreach \angle / \label in {90/#1, 270/#2}{ \draw (\angle:0.6cm) node{\textbf{\label}}; }
+}
+}
+}
 \begin{document}
 \begin{frame}[t,shrink=65]
-
 \begin{tikzpicture}
-draw[black, thick](0,0) circle(1.5) node {Requirements};
-%%\draw[] (-1,- 1) -- (1,-1); % Linie im Kreis
-%\path (0, 0) node[draw, circle] { Requirements };
-%\draw[thick] (-1,-1) -- (1,-1);
-\draw[->, red] (1.5,0) -- (3.5,0)  node[below left] {2}  node[above left] {1/2/3};
-\draw[black, thick](5.0,0) circle(1.5) node {Systementwurf};
-\draw[->] (6.5,0) -- (8.8,3);
-\draw[black, thick](10.0,4) circle(1.5) node {HW-Entwurf};
-\draw[->] (6.5,0) -- (8.5,0) node[below left] {2}  node[above left] {1.5/2/2.5};
-\draw[black, thick](10.0,0) circle(1.5) node {Funktionsmuster};
-\draw[->, red] (6.5,0) -- (8.8,-3);
-\draw[black, thick](10,-4) circle(1.5) node {SW-Entwurf};
-\draw[->] (11.5,4) -- (13.5,4) node[below left] {5}  node[above left] {4/5/6};
-\draw[black, thick](15,4) circle(1.5) node {Prototyp};
-\draw[->,red] (11.5,-4) -- (13.5,-4) node[black, below left] {6}  node[black, above left] {5/6/7.5};
-\draw[black, thick](15,-4) circle(1.5) node {Programmierung};
-\draw[->] (16.5,4) -- (18.5,4) node[below left] {4}  node[above left] {3/4/5};
-\draw[black, thick](20,4) circle(1.5) node {HW-Test};
-\draw[->,red] (16.5,-4) -- (18.5,-4) node[below left] {5};
-\draw[black, thick](20,-4) circle(1.5) node {SW-Test};
-\draw[->,red] (21.5,-4) -- (24.5,-1.5);
-\draw[black, thick](25,0) circle(1.5) node {Integration};
-\draw[->] (21.5,4) -- (24.5,1.5);
-\draw[->,red] (26.5,0) -- (28.5,0) node[black, below left] {3}  node[black, above left] {2/3/4};
-\draw[black, thick](30,0) circle(1.5) node {Systemtest};
-
-
+[bend angle=45,
+line width=1pt,
+auto,
+pre/.style={<-,shorten <=1pt,>=stealth',semithick},
+post/.style={->,shorten >=1pt,>=stealth',semithick}]
+\pic (N01) at (0,-4) {p2way=%
+{\hlblack<1>\visible<1->RQ}
+{\hlblack<1>\visible<1->1}
+};
+\pic (N02) at (2,-8) {p2way=%
+{\hlblack<1>\visible<1->Studie}
+{\hlblack<1>\visible<1->2}
+};
+\pic (N03) at (4,-4) {p2way=%
+{\hlblack<1>\visible<1->SE}
+{\hlblack<1>\visible<1->3}
+};
+\draw<2-> [post] (N01) to node {1/1/2}
+node[swap] {1} (N02);
+\draw<2-> [post] (N01) to node {1/2/3}
+node[swap] {2} (N03);
+\draw<2-> [post] (N02) to node {}
+node[swap] {} (N03);
+\pic (N04) at (8,0) {p2way=%
+{\hlblack<1>\visible<1->HW}
+{\hlblack<1>\visible<1->5}
+};
+\draw<3-> [post] (N03) to node {3/4/5}
+node[swap] {4} (N04);
+\draw<3-> [post] (N03) to node {1,5/2/2,5}
+node[swap] {2} (N05);
+\draw<3-> [post] (N03) to node {2,5/3/4}
+node[swap] {3} (N07);
+\pic (N05) at (8,-4) {p2way=%
+{\hlblack<1>\visible<1->FM}
+{\hlblack<1>\visible<1->6}
+};
+\pic (N13) at (12,-2.5) {p2way=%
+{\hlblack<1>\visible<1->8}
+{\hlblack<1>\visible<1->9}
+};
+\pic (N14) at (12,-5.5) {p2way=%
+{\hlblack<1>\visible<1->11}
+{\hlblack<1>\visible<1->12}
+};
+\pic (N06) at (12,0) {p2way=%
+{\hlblack<1>\visible<1->Proto}
+{\hlblack<1>\visible<1->11}
+};
+\pic (N07) at (8,-8) {p2way=%
+{\hlblack<1>\visible<1->SW}
+{\hlblack<1>\visible<1->7}
+};
+\pic (N08) at (12,-8) {p2way=%
+{\hlblack<1>\visible<1->Pgm}
+{\hlblack<1>\visible<1->8}
+};
+\draw<4-> [post] (N04) to node {4/5/6}
+node[swap] {5} (N06);
+\draw<4-> [post] (N07) to node {5/6/7,5}
+node[swap] {6} (N08);
+\pic (N09) at (16,0) {p2way=%
+{\hlblack<1>\visible<1->HWT}
+{\hlblack<1>\visible<1->1}
+};
+\pic (N10) at (16,-8) {p2way=%
+{\hlblack<1>\visible<1->SWT}
+{\hlblack<1>\visible<1->10}
+};
+\draw<5-> [post] (N06) to node {3/4/5}
+node[swap] {4} (N09);
+\draw<5-> [post] (N08) to node {4/5/6}
+node[swap] {5} (N10);
+\pic (N11) at (20,-4) {p2way=%
+{\hlblack<1>\visible<1->Int}
+{\hlblack<1>\visible<1->14}
+};
+\pic (N12) at (24,-4) {p2way=%
+{\hlblack<1>\visible<1->Test}
+{\hlblack<1>\visible<1->15}
+};
+\draw<6-> [post] (N09) to node {1/2/3}
+node[swap] {2} (N11);
+\draw<6-> [post] (N10) to node {1/2/3}
+node[swap] {2} (N11);
+\draw<7-> [post] (N11) to node {2/3/4}
+node[swap] {3} (N12);
+%Einzeichnen des kritischen Pfades
+\only<23>{\draw<14->[red, ultra thick] [post] (N01) to node {}
+node[swap] {} (N03);}
+\only<23>{\draw<14->[red, ultra thick] [post] (N03) to node {}
+node[swap] {} (N07);}
+\only<23>{\draw<14->[red, ultra thick] [post] (N07) to node {}
+node[swap] {} (N08);}
+\only<23>{\draw<14->[red, ultra thick] [post] (N08) to node {}
+node[swap] {} (N10);}
+\only<23>{\draw<14->[red, ultra thick] [post] (N10) to node {}
+node[swap] {} (N11);}
+\only<23>{\draw<14->[red, ultra thick] [post] (N11) to node {}
+node[swap] {} (N12);}
 \end{tikzpicture}
-
-\mode<presentation>
-\definecolor{hdaRot}{cmyk}{0,1,1,0.18}     % -5005
-\definecolor{hdaBlauMed}{cmyk}{0.71,0.25,0,0}     % -1169
-\definecolor{hdaGruenMed}{cmyk}{0.5,0.13,1,0.06}    % -2048
-
+\begin{columns}
+\column[t]{.60\textwidth}
 {\Large
-	\par\vspace{2cm}\noindent  
-	
-    \begin{tabular}{l|lcccl}
-      \hline
-    Nr & Tätigkeit & Vorgänger & T$_{o}$ & T$_{w}$ & T$_{p}$ \\
-     1  & Requirements & - & 1 & 2 & 3  \\
-     2  & Studie & - & 1 & 1 & 2  \\
-     3  & Sytsementwurf & 1 & 3 & 4  & 5  \\
-     4  & 3 & 2 & -  \\
-     5  & HW-Entwurf& 3 & 2 & 3 & 4 \\
-     6  & Funktionsmuster  & 3 & 1.5  & 2 & 2.5 \\
-     7  & SW-Entwurf  & 3 & 2.5  & 3 & 4 \\
-     8  & Programmierung & 7 & 5 & 6 & 7.5 \\
-     9  & 8  & 6 & -  \\
-    10  & SW-Test & 8 &  4 & 5& 6 \\
-    11  & Prototyp-Entwicklung & 5 & 4 & 5 & 6  \\
-	12  & 11  & 6 & - & & \\
-	13  & HW-Test  & 11 & 3 & 4 & 5 \\
-	14  & Integration & 10;13 & 1 & 2 & 3 \\
-	15  & Sytsem-Test & 14 & 2 & 3 & 4 \\
-      \hline
-        & \textbf{Gesamtaufwand} & \textbf{40}  \\
-    \end{tabular}
+\par\vspace{2cm}\noindent %Abstand zur Grafik 2cm
+\begin{tabular}{l|lccccl}
+\hline
+Nr & Tätigkeit & Vorgänger & T$_{o}$ & T$_{w}$ & T$_{p}$ & Kurz\\
+1 & Requirements & - & 1 & 2 & 3 & RQ \\
+2 & Studie & - & 1 & 1 & 2 & Studie\\
+3 & Sytsementwurf & 1 & 3 & 4 & 5 & SE\\
+4 & 3 & 2 & - \\
+5 & HW-Entwurf& 3 & 2 & 3 & 4 & HW\\
+6 & Funktionsmuster & 3 & 1.5 & 2 & 2.5 & FM\\
+7 & SW-Entwurf & 3 & 2.5 & 3 & 4 & SW\\
+8 & Programmierung & 7 & 5 & 6 & 7.5 & Pgm \\
+9 & 8 & 6 & - \\
+10 & SW-Test & 8 & 4 & 5& 6 & SWT\\
+11 & Prototyp-Entwicklung & 5 & 4 & 5 & 6 & Proto \\
+12 & 11 & 6 & - & & \\
+13 & HW-Test & 11 & 3 & 4 & 5 & HWT\\
+14 & Integration & 10;13 & 1 & 2 & 3 & Int\\
+15 & Sytsem-Test & 14 & 2 & 3 & 4 & Test\\
+\hline
+& \textbf{Gesamtaufwand} & & & \textbf{40} \\
+\end{tabular}
 }
-
-\par\vspace{1cm}\noindent 
+\column[t]{.40\textwidth}
+\par\vspace{1cm}\noindent %Abstand
 \begin{itemize}
-{\huge 
-	\item<only@+> {Suche alle Vorgänge ohne Vorgänger). Alle diese Pfeile gehen vom ersten Knoten aus. Schreibe die Tätigkeiten in den Knoten, sowie Aufwand/Dauer auf den Pfeil.}
-	
-	\item<only@+> {Berechne nun T$_{m}$ und schreibe diese unter den Pfeil.}
-	
-	 \item<only@+> {Dein Netzplan beginnt immer bei einem t$_{F}$ von 0. Dieser wird über den Knoten geschrieben.}
-	  
-	  \item<only@+> {Bei der Vorwärtsrechnung wird zum T$_{F}$  der T$_{m}$ dazugerechnet.}
-	  
-	  \item<only@+> {Berechne T$_{F}$ für alle Knoten und schreibe diese über den jeweiligen Knoten.}
-	  
-	  \item<only@+>{Bei einer Kreuzung wird bei der Vorwärtsrechnung mit dem größeren Wert weitergearbeitet.}
-	  
-	  \item<only@+>{Der Wert für T$_{S}$ wird von  T$_{F}$ übernommen und unter den Knoten geschrieben.}
-	  
-	  \item<only@+>{Nun folgt die Rückwärtsrechnung. Hierbei wird T$_{m}$ von T$_{S}$ abgezogen.}
-	  
-	  \item<only@+>{Bei einer Kreuzung wird der kleinere Wert weiterverarbeitet.}
-	  
-	  \item<only@+>{Als letztes wird der kritische Pfad ermittelt und verdeutlicht.}
-	  	
-	  
-	\item \alert<+> {}
+{\huge
+\item<only@+> {Suche alle Vorgänge ohne Vorgänger (siehe Liste). Alle diese Pfeile gehen
+von unserem ersten Knoten aus. Schreibe die Tätigkeiten (in Kurzform), sowie die fortlaufende
+Nummer in den Knoten.}
+\item<only@+> {Füge alle Pfeile zu den möglichen Nachfolger hinzu und schreibe T$_o$,
+T$_w$ und T$_p$ über den Pfeil. Berechne anschließend T$_m$ und schreibe diesen unter den
+Pfeil. } \\[1em]
+\item<only@2> { T$_m$ = $\frac{ T_{o} + 4T_{w} + T_{p}}{6}$}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Dein Netzplan beginnt immer bei einem t$_F$ von 0. Schreibe dies über den
+ersten Knoten}
+\item<only@+> { Bei der Vorwärtsberechnung wird zum T$_{F}$ der T$_{m}$ dazugerechnet
+und über den Knoten geschrieben. }
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+> {Wiederhole diesen Schritt.}
+\item<only@+>{Bei einer Kreuzung wird bei der Vorwärtsberechnung mit dem größeren Wert
+weitergearbeitet.}
+\item<only@+>{Der Wert für T$_{S}$ wird von T$_{F}$ übernommen und unter den Knoten
+geschrieben.}
+\item<only@+>{Nun folgt die Rückwärtsberechnung. Hierbei wird T$_{m}$ von T$_{S}$
+abgezogen.}
+\item<only@+> {Bei der Rückwärtsberechnung wird T$_{m}$ von T$_{S}$ abgezogen und
+dieser Wert wird unter den Knoten geschriieben.}
+\item<only@+>{Bei einer Kreuzung wird bei der Rückwärtsberechnung mit dem kleineren
+Wert weitergearbeitet.}
+\item<only@+> {Die Differenz von T$_{m}$ und T$_{S}$ ergibt die Pufferzeit.}
+\item<only@+> { Kritischer Pfad: T$_{S}$ - T$_{F}$ = 0 }
+\item<only@+> {Zeichne den kritischen Pfad ein (hier: rot markiert).}
+\item \alert<+> {}
 }
 \end{itemize}
-	
+\par\vspace{2cm}\noindent %Abstand
+\only<23>{\begin{alertblock}{Merke!}
+Alle Vorgänge mit einer Pufferzeit von 0 gehören zu dem kritischen Pfad.
+\end{alertblock}
+}
+\end{columns}
 \end{frame}
-
-\end{document} 
+\end{document}
