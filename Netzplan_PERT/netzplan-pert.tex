@@ -60,7 +60,7 @@
 \begin{document}
 
 %\begin{frame}[t,shrink=65]
-\begin{frame}[t,shrink=65]{Vorganspfeil Netzplan}
+\begin{frame}[t,shrink=65]{Ereignisknoten Netzplan}
 \begin{tikzpicture}
    [bend angle=45,
    line width=1pt,
@@ -259,23 +259,23 @@
 
       \item<only@2-8> Füge den jew. Pfeil zum Nachfolger hinzu und schreibe T$_o$, T$_w$ und T$_p$ über den Pfeil. Berechne anschließend T$_m$ und schreibe diesen Wert unter den Pfeil.
 
-      \item<only@2-8> T$_m$ = $\frac{ T_{o} + 4T_{w} + T_{p}}{6}$
+      \item<only@2,4,6, 8> T$_m$ = $\frac{ T_{o} + 4T_{w} + T_{p}}{6}$
 
       \item<only@3,7> Hat eine Tätigkeit \textbf{mehrere Vorgänger}, füge ein Startergeignis ein, an dem diese synchron starten. Verbinde den Vorgänger mit dem Startknoten. Diese Pfeile haben keine Dauer.
 
-      \item<only@5> Hat eine Tätigkeit \textbf{keinen Nachfolger}, so ist diese ggf. mit anderen Ereignissen zu Synchronisieren. Diese Pfeile haben keine Tätigkeit, also keine Dauer.
+      \item<only@5> Hat eine Tätigkeit \textbf{keinen Nachfolger}, so ist diese ggf. mit anderen Ereignissen zu synchronisieren. Diese Pfeile haben keine Tätigkeit, also keine Dauer.
 
       \item<only@9> Der Netzplan beginnt bei T$_F$ = 0. Schreibe dies über den Startknoten.
 
       \item<only@10-17> Bei der Vorwärtsberechnung wird T$_{m}$ zu T$_{F}$ addiert. Schreibe dies über den Knoten an dem die Tätigkeit endet.
 
-      \item<only@11,12,14> Bei der Vorwärtsberechnung wird mit dem größeren Wert weitergearbeitet, wenn ein Knoten mehrere Vorgänger hat.
+      \item<only@11, 15> Bei der Vorwärtsberechnung wird mit dem größeren Wert weitergearbeitet, wenn ein Knoten mehrere Vorgänger hat.
 
       \item<only@17> Am letzten Knoten wird der Wert für T$_{S}$ von  T$_{F}$ übernommen und unter den Knoten geschrieben.
 
       \item<only@18-26> Nun folgt die Rückwärtsberechnung. Hierbei wird T$_{m}$ von T$_{S}$ abgezogen und unter den vorherigen Knoten geschrieben.
 
-      \item<only@21,24> Wenn ein Knoten \textbf{mehrere Nachfolger} hat, wird mit dem kleinsten Wert der T$_{S} -$ T$_{m}$  weitergearbeitet.
+      \item<only@24,26> Wenn ein Knoten \textbf{mehrere Nachfolger} hat, wird mit dem kleinsten Wert der T$_{S} -$ T$_{m}$  weitergearbeitet.
 
       \item<only@27-> Berechne die Pufferwerte P = T$_{S}$ - T$_{F}$. Alle mit  $P=0$ liegen auf dem kritischen Pfad.
 
